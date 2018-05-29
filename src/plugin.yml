@@ -1,0 +1,21 @@
+name: DropLocker
+version: 1.0
+main: me.joshuaemq.dropLocker.DropLocker
+description: Lock Drops!
+author: joshuaemq
+
+commands:
+    lockitem:
+        usage: /<command>
+        description: lockitem!
+    unlockitem:
+        usage: /<command>
+        description: unlockitem!
+    setunlockable:
+        usage: /<command>
+        permission: droplocker.setunlockables
+        description: set items that cant be locked!
+    dlhelp:
+        usage: /<command>
+        aliases: [dl, droplocker]
+        description: Drop locker help page!
